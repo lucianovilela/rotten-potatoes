@@ -14,7 +14,7 @@ spec:
     spec: 
       containers:
         - name: movies
-          image: fabricioveronez/rotten-potatoes
+          image: lucianovilela/rottern-potatoes:v1
           ports:
             - containerPort: 5000
           env: 
@@ -44,3 +44,4 @@ spec:
     nodePort: 30000
   type: LoadBalancer
   
+
